@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet</title>
+    <link rel="stylesheet" href="./resources/CSS/index.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="title">
+            <h2>My first Codecademy project!</h2>
+            <h1>Cheatsheet</h1>
+            <span>By Michal Laskowski</span>
+        </nav>
+        <nav class="list-of-content">
+            <h2>Lsit of Content</h2>
+            <h3>Cheatsheet - HTML</h3>
+            <ul>
+                <li><a href="#elements">Elements</a></li>
+                <li><a href="#structure">Structure</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#semantic-html">Semantic HTML</a></li>
+            </ul>
+            <h3>Cheatsheet - CSS</h3>
+            <ul>
+                <li>Selectors and Visual Rules</li>
+                <li>The Box Model</li>
+                <li>Display and Positioning</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <!-- Main - Elements Section  -->
+        <section class="elements">
+            <h3 id="elements">Elements</h3>
+            <p>
+                HTML (HyperText Markup Language) is used to give content to a web page and instructs web browsers on how to structure that content. <br> 
+                The content of an HTML element is the information between the opening and closing tags of an element. <br>
+                HTML is organized into a family tree structure. HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.
+                An HTML closing tag is used to denote the end of an HTML element. The syntax for a closing tag is a left angle bracket &lt; followed by a 
+                forward slash / then the element name and a right angle bracket to close &gt;.
+            </p>
+            <h4>Useful Commands</h4>
+            <p>
+                <span>&lt;p&gt;</span> - The paragraph element contains and displays a block of text <br>
+                <span>&lt;h1-h6&gt;</span> - HTML can use six different levels of heading elements. The heading elements are ordered from the highest level h1 to the lowest h6. <br>
+                <span>&lt;br&gt;</span> - This is line break, this element will create a line break in text and is especially usefyl where a division of text is required, like in a postal address. The linebreak element requires only an opening tag and must not have closing tag. <br>
+                <span>&lt;img&gt;</span> - Image element embed images in documents. It have to include src attribute containing the image URL. It is an empty element meaning it should not have aclosing tag. <br>
+                <br>There are many more useful elements that you can use in writing your code, you can find them <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">here</a>!
+            </p>
+        </section>
+    <!-- Main - Structure Section -->
+        <section class="structure">
+            <h3 id="structure">Structure</h3>
+            <p> 
+                In addition to defining individual parts of your page (such as "a paragraph" or "an image"), HTML also boasts a number of block level elements used to define areas of your website (such as "the header", "the navigation menu", "the main content column"). This article looks into how to plan a basic website structure, and write the HTML to represent this structure. <br>
+                Webpages can and will look pretty different from one another, but they all tend to share similar standard components, unless the page is displaying a fullscreen video or game, is part of some kind of art project, or is just badly structured: <br>
+                <ul>
+                    <li>Header</li>
+                    <li>Navigation Bar</li>
+                    <li>Main</li>
+                    <li>Footer</li>
+                </ul>
+            </p>
+            <p>
+                <span>Header</span> - Usually a big strip across the top with a big heading, logo, and perhaps a tagline. This usually stays the same from one webpage to another. <br>
+                <span>Navigation Bar</span> - Links to the site's main sections; usually represented by menu buttons, links, or tabs. Like the header, this content usually remains consistent from one webpage to another — having inconsistent navigation on your website will just lead to confused, frustrated users. <br>
+                <span>Main</span> - A big area in the center that contains most of the unique content of a given webpage, for example, the video you want to watch, or the main story you're reading, or the map you want to view, or the news headlines, etc. <br>
+                <span>Footer</span> - A strip across the bottom of the page that generally contains fine print, copyright notices, or contact info. It's a place to put common information (like the header) but usually, that information is not critical or secondary to the website itself. <br>
+                <br> You can read more on the subject <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure" target="_blank">here</a>!
+            </p>
+            </section>
+    <!-- Main - Tables Section -->
+        <section class="tables">
+            <h3 id="tables">Tables</h3>
+            <p>
+                The &lt;table&gt; element represents tabular data - that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data. <br>
+                <br> You can learn more about table and how to creat them <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank">here</a>! And, see the example below!
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>This</th>
+                        <th>Is</th>
+                        <th>An</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Example</td>
+                        <td>Of</td>
+                        <td>Table!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    <!-- Main - Semantic HTML Section -->
+        <section class="semantic-html">
+            <h3 id="semantic-html">Semantic HTML</h3>
+            <p>
+                Semantic HTML introduces meaning to the code we write. Before Semantic HTML the elements didn't have any meaning as to what it does or what content goes in it. An element such as &lt;div&gt; was used as a general-purpose element to create things from headers to footers to articles. With Semantic HTML we were introduced to elements that tell developers and browsers exactly what it does and what content should go in it. <br>
+                <br>To learn more about Semantic HTML and to find useful HTML elements, you can read more <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">here</a>!
+            </p>
+        </section>
+    </main>
+    <!-- Footer Section-->
+    <footer>
+        <p>I don't have conntact info yet, but it will be added soon, please wait...&#128540;!</p>
+    </footer>
+</body>
+</html>

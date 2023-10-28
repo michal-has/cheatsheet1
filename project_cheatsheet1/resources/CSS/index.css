@@ -1,0 +1,99 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    color: wheat;
+    background-image: url(../images/randon-code.jpg);
+    background-size: 60% auto;
+}
+
+/* Header section */
+
+.title {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    top: 0px;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.title h2 {
+    margin: 5px 0px;
+}
+
+.title span {
+    opacity: 0.8;
+    float: right;
+}
+
+.list-of-content {
+    position: relative;
+    top: 60px;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.list-of-content a {
+    color: wheat;
+    text-decoration: none;
+}
+
+/* main body */
+
+main {
+    position: relative;
+    top: 60px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+main h3 {
+    text-align: center;
+}
+
+main p, h4 {
+    width: 90%;
+    margin:  20px auto;
+}
+
+.structure ul {
+    width: 90%;
+    margin: 5px auto;
+}
+
+.structure span {
+    font-weight: bold;
+    font-style: italic;
+    color: blanchedalmond;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 5px solid red;
+}
+
+td {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
